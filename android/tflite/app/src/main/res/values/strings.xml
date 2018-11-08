@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2014 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources>
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="toggle_turn_on">NN:On</string>
+    <string name="toggle_turn_off">NN:Off</string>
+    <string name="toggle">Use NNAPI</string>
+    <string name="search_text">Search Plants</string>
+    <string name="search_back">Search back</string>
+    <string name="commonNameValue" >DEFAULT</string>
+    <string name="sciNameValue" >DEFAULT</string>
+    <string name="statusValue" >default</string>
+    <string name="familyValue" >default</string>
+    <string name="nativeValue" >default</string>
+    <string name="flowerImageDesc">Image for flower</string>
+    <string name="test">Not Default</string>
+    <string name="statusLabel">CONSERVATION STATUS:</string>
+    <string name="familyLabel">FAMILY:</string>
+    <string name="nativeLabel">NATIVITY:</string>
+    <string name="reportSightingValue">Report Sighting</string>
+    <string name="yesNative">E</string>
+    <string name="noNative">N</string>
+</resources>

@@ -1,0 +1,11 @@
+**/*.pyc
+.idea/
+**/*~
+gradle*
+libs/
+local.properties
+android.iml
+.gradle/
+.DS_Store
+android/assets/*
+android/tflite/app/build/

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textViewPlantName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/flowerImage"
+        android:layout_width="0dp"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/flowerImageDesc"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/accent_material_dark_1" />
+
+    <TextView
+        android:id="@+id/sciNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/open_sans"
+        android:gravity="top|center_horizontal"
+        android:text="@string/sciNameValue"
+        android:textColor="@color/green_300"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flowerImage" />
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/open_sans"
+        android:gravity="right"
+        android:text="@string/statusValue"
+        android:textAlignment="textEnd"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/statusLabel"
+        app:layout_constraintTop_toBottomOf="@+id/cNameTextView" />
+
+    <TextView
+        android:id="@+id/familyTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/open_sans"
+        android:gravity="right"
+        android:text="@string/familyValue"
+        android:textAlignment="textEnd"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/familyLabel"
+        app:layout_constraintTop_toBottomOf="@+id/statusTextView" />
+
+    <TextView
+        android:id="@+id/nativeTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/open_sans"
+        android:gravity="right"
+        android:text="@string/nativeValue"
+        android:textAlignment="textEnd"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nativeLabel"
+        app:layout_constraintTop_toBottomOf="@+id/familyTextView" />
+
+    <ImageView
+        android:id="@+id/imageCrest"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/circle_green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/flowerImage" />
+
+
+    <TextView
+        android:id="@+id/cNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/commonNameValue"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sciNameTextView" />
+
+    <TextView
+        android:id="@+id/statusLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/statusLabel"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cNameTextView" />
+
+    <TextView
+        android:id="@+id/familyLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/familyLabel"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statusLabel" />
+
+    <TextView
+        android:id="@+id/nativeLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/nativeLabel"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/familyLabel" />
+
+    <Button
+        android:id="@+id/reportSIghtingBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/green_800"
+        android:text="@string/reportSightingValue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/nativeCrest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/yesNative"
+        android:textColor="#303030"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageCrest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageCrest" />
+
+</android.support.constraint.ConstraintLayout>

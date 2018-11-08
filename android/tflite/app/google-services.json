@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "815989022056",
+    "firebase_url": "https://flowerai-59022.firebaseio.com",
+    "project_id": "flowerai-59022",
+    "storage_bucket": "flowerai-59022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815989022056:android:90e6e859238c4abf",
+        "android_client_info": {
+          "package_name": "com.guccigang.flowerai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815989022056-fub4g1p8mpo8gc7k5uok551kg4aq3874.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsR1N_CfzfpRjkSHfu0y3vOC_2XPlrZxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
