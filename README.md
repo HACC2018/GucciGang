@@ -61,7 +61,7 @@ After installing Tensorflow, the next thing you need to install is Android Studi
 ## Clone the Repository:
 Clone the repository by doing git clone in the terminal / commandline:
 ```
-git clone https://github.com/brendtmcfeeley/FlowerAI.git
+git clone https://github.com/brendtmcfeeley/GucciGang.git
 ```
 
 # Setting up the Application:
@@ -71,7 +71,7 @@ Open AndroidStudio. After it loads select "Open an existing Android Studio proje
   <img src="images/android1.png?raw=true" alt="Andrew"/>
 </p>
 
-In the file selector, choose FlowerAI/android/tflite from your working directory.
+In the file selector, choose GucciGang/android/tflite from your working directory.
 
 You will get a "Gradle Sync" popup, the first time you open the project, asking about using gradle wrapper. Click "OK".
 
